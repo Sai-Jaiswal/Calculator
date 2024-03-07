@@ -45,7 +45,7 @@ function calculateResult(result) {
     try {
 
         // Handles Square root
-        let sqrNum = result[result.indexOf("√") + 1]
+        let sqrNum = result[result.indexOf("√") + 1];
         sqRoot = Math.sqrt(sqrNum);
         sol = result.replace("√" + sqrNum, sqRoot)
 
