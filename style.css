@@ -5,10 +5,12 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
     background-color: #F5F7FF;
+    overflow: hidden;
 }
 
 main {
